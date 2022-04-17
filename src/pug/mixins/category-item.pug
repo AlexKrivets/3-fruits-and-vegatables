@@ -1,0 +1,8 @@
+//- mixin category-item(img, text)
+//-   a(href="#").category__item
+//-     img(src=img, alt="category").category_img
+//-     span.category__text=text
+mixin category-item(args={})
+  a(href="#").category__item
+    img(src=args.img, alt="category").category_img
+    span.category__text=args.text 

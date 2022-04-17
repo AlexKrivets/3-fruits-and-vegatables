@@ -1,0 +1,10 @@
+@import './main/reset.scss';
+@import './main/common.scss';
+@import './components/header.scss';
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+}

@@ -1,6 +1,5 @@
 .top {
-    padding-top: 189px;
-    background-color: rgb(219, 220, 221);
+    padding-top: 50px;
     &__row {
         display: flex;
         gap: 10px;
@@ -67,7 +66,7 @@
         font-size: 16px;
         line-height: 22px;
         color: #7fad39;
-        padding-right: 10px;
+        padding-right: 5px;
     }
     &__price--hight {
         font-family: 'Cerebri Sans Pro';
@@ -93,5 +92,6 @@
 }
 
 .number {
-    margin: 0 7px;
+    font-family: 'Cerebri Sans Pro', Times, serif;
+    margin: 0 5px 0 7px;
 }

@@ -1,0 +1,42 @@
+include ../mixins/top-item.pug
+
+section.top.title.container
+  h3.title__greentext For You
+  h2.title__blacktext Top Featured Products
+  .top__row
+    +top-item(
+      {
+        img: './assets/imgs/top-fruits/apricot.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot',
+      }
+      )
+    +top-item(
+      {
+        img: './assets/imgs/top-fruits/cucumber.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot'
+        
+      }
+    )
+    +top-item(
+      {
+        img: './assets/imgs/top-fruits/nut.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot'
+      }
+    )
+    +top-item(
+      {
+        img: './assets/imgs/top-fruits/broccoli.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot'
+      }
+    )
+    +top-item(
+      {
+        img: './assets/imgs/top-fruits/quince.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot'
+      }
+    )

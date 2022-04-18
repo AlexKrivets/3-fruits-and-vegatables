@@ -1,0 +1,20 @@
+mixin top-item(args={})
+  div.top__item
+    div().top__discont
+      button.top__text='15%Off'
+      a(href="#").top__love
+        img(src="../../assets/imgs/top-fruits/love.svg", alt='img2')
+    img(src=args.img, alt='fruit').top__img
+    span.top__text1=args.text1
+    span.top__text2=args.text2
+    span.top__text3=args.text3
+      div().top__price
+        span.top__price--low='12$'
+        s.top__price--hight='15$'
+    div().top__footer
+      div().top__btn
+        button.minus='-'
+        span.number='1'
+        button.plus='+'
+      a(href="#").shop
+        img(src="../../assets/imgs/top-fruits/shop.svg", alt='img2')

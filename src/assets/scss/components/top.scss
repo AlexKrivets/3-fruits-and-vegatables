@@ -1,0 +1,97 @@
+.top {
+    padding-top: 189px;
+    background-color: rgb(219, 220, 221);
+    &__row {
+        display: flex;
+        gap: 10px;
+    }
+    &__item {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 20px;
+        max-width: calc((100% - 40px) / 5);
+        min-height: 335px;
+        border: 0.5px solid rgba(42, 42, 42, 0.15);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
+    }
+    &__discont {
+        display: flex;
+        min-width: 186px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        text-align: center;
+        background-color: #7fad39;
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 30px;
+        color: white;
+        border: none;
+    }
+    &__text1 {
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        display: flex;
+        margin: 0 auto;
+        color: #a9a9a9;
+    }
+    &__text2 {
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 19px;
+    }
+    &__text3 {
+        min-width: 186px;
+        text-align: center;
+    }
+    &__price {
+        margin-bottom: 27px;
+    }
+    &__price--low {
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        color: #7fad39;
+        padding-right: 10px;
+    }
+    &__price--hight {
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        color: #a9a9a9;
+    }
+    &__footer {
+        display: flex;
+        min-width: 186px;
+        justify-content: space-between;
+    }
+}
+
+.minus,
+.plus {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    color: white;
+}
+
+.number {
+    margin: 0 7px;
+}

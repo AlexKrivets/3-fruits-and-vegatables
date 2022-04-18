@@ -1,4 +1,4 @@
-
+include ../mixins/top-fruits-item.pug
 
 section.top-fruits.container
   h3.greentext For You
@@ -6,13 +6,41 @@ section.top-fruits.container
   .top-fruits__row
   +top-fruits-item(
       {
-        img: './assets/imgs/categories/cat_apple.svg',
-        text: 'Vegetables & Fruits'
+        img: './assets/imgs/top-fruits/apricot.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot',
+        text3: '$12'
+
+
       }
     )
   +top-fruits-item(
       {
-        img: './assets/imgs/categories/cat_apple.svg',
-        text: 'Vegetables & Fruits'
+        img: './assets/imgs/top-fruits/apricot.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot',
+        text3: '$12'
+
+
       }
-    ) 
+    )
+    +top-fruits-item(
+      {
+        img: './assets/imgs/top-fruits/apricot.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot',
+        text3: '$12'
+
+
+      }
+    )
+    +top-fruits-item(
+      {
+        img: './assets/imgs/top-fruits/apricot.jpg',
+        text1: 'Available(in stock)',
+        text2: 'Fresh organic apricot',
+        text3: '$12'
+
+
+      }
+    )

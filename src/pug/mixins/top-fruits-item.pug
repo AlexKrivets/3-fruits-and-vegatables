@@ -1,4 +1,18 @@
 mixin top-fruits-item(args={})
   span.top__item
-    img(src=args.img1, alt="category").1__img
-    span.category__text=args.text 
+    div().category_first_line
+      span.top__text='15%Off'
+      a(href="#").top_love
+        img(src="../../assets/imgs/top-fruits/love.svg", alt='img2')
+    img(src=args.img, alt='fruit').fruit_img
+    span.top__text=args.text1
+    span.top__text2=args.text2
+    span.top__text2=args.text3
+      s.s='15$'
+    div().top__footer
+      div().btn
+        button.but='-'
+        p.one='1'
+        button.but='+'
+      a(href="#").shop
+        img(src="../../assets/imgs/top-fruits/shop.svg", alt='img2')

@@ -1,3 +1,9 @@
-.values__item {
-    background-image: url('../imgs/values/daily.jpg');
+.values {
+    display: flex;
+}
+
+.back {
+    width: 377px;
+    height: 290px;
+    display: flex;
 }

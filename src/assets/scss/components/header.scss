@@ -1,1 +1,27 @@
-header {}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width: 767.75px) {
+    .burger {
+        display: block;
+    }
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 30px;
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+}

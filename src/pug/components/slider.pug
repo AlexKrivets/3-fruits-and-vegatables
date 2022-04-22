@@ -1,0 +1,27 @@
+include ../mixins/slide-item.pug
+
+
+  // Slider main container
+.swiper.slider
+  // Additional required wrapper
+  .swiper-wrapper
+    // Slides
+    .swiper-slide 
+      +slide-item(
+    {
+      img:'./assets/imgs/prod.jpg',
+    }
+  )
+    .swiper-slide
+      +slide-item(
+    {
+      img:'./assets/imgs/prod.jpg',
+    }
+  )
+    .swiper-slide
+      +slide-item(
+    {
+      img:'./assets/imgs/prod.jpg',
+    }
+      )
+

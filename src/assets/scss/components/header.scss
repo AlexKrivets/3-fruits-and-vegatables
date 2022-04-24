@@ -3,13 +3,13 @@
     justify-content: space-between;
 }
 
-.burger {
+.burger .close {
     font-size: 30px;
     display: none;
 }
 
 @media (max-width: 767.75px) {
-    .burger {
+    .burger .close {
         display: block;
     }
     .nav {

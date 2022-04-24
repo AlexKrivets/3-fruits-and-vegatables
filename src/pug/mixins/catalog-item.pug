@@ -1,0 +1,6 @@
+mixin catalog-item(args={})
+  a(href="#" class=args.mod_class).catalog-item
+    img.catalog-item__img(src=args.img, alt=args.title)
+    span.catalog-item__content
+      span.catalog-item__title=args.title
+      span.catalog-item__count=args.count+'items'

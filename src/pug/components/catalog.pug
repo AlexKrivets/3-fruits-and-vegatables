@@ -1,0 +1,6 @@
+include ../mixins/catalog-item.pug
+include ../data/catalog-items-data.pug
+
+.container.catalog
+  each item in items
+    +catalog-item(item)

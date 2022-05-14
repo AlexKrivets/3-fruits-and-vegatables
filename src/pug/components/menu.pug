@@ -1,5 +1,5 @@
-.menu.container
-    a.menu__select(href="#") 
+.menu.container.border
+    a.menu__select(href="$") 
       img(src="./assets/imgs/menu.png", alt="select").menu__img
       p.menu__text Select Categories
     .menu__list
@@ -8,6 +8,6 @@
       a(href="#") STORES
       a(href="#") CONTACT
     .menu__btn
-        a(href="#").menu__card
-          img(src="./assets/imgs/cart.png", alt="").menu__card--img
-          p.menu__card--buy CART 2
+        a.menu__btn--card(href="#")
+          img(src="./assets/imgs/cart.png", alt="").menu__btn--img
+          p.menu__btn--buy CART 2

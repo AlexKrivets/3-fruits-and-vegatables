@@ -1,10 +1,15 @@
 .menu {
     height: 80px;
     display: flex;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 0px #cecece;
+    margin-bottom: 32px;
     &__select {
         box-sizing: border-box;
         display: flex;
         align-items: center;
+        text-decoration: none;
+        margin-right: 45px;
     }
     &__img {
         background: #f7f7f7;
@@ -23,11 +28,29 @@
         align-items: center;
         color: #2a2a2a;
         text-decoration: none;
-        list-style-type: none;
     }
     &__list {
         display: flex;
         text-align: center;
+        width: 377px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list a {
+        text-decoration: none;
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #2a2a2a;
+        margin-right: 40px;
+    }
+    &__list a:hover {
+        color: #7fad39;
     }
     &__btn {
         display: flex;
@@ -35,14 +58,17 @@
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 410px;
     }
-    &__card {
+    &__btn--card {
         display: flex;
         padding: 13px 37px 13px 14px;
         align-items: center;
         text-decoration: none;
     }
-    &__card--buy {
+    &__btn--buy {
         font-family: 'Cerebri Sans Pro';
         font-style: normal;
         font-weight: 800;

@@ -1,9 +1,17 @@
-.values {
-    display: flex;
+.title__greentext {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #7fad39;
 }
 
-.back {
-    width: 377px;
-    height: 290px;
-    display: flex;
+.title__blacktext {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 40px;
 }

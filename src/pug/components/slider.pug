@@ -1,27 +1,43 @@
 include ../mixins/slide-item.pug
 
 
-  // Slider main container
-.swiper.slider
+// Slider main container
+.swiper.slider.container
   // Additional required wrapper
   .swiper-wrapper
     // Slides
-    .swiper-slide 
-      +slide-item(
-    {
-      img:'./assets/imgs/prod.jpg',
-    }
-  )
     .swiper-slide
-      +slide-item(
-    {
-      img:'./assets/imgs/prod.jpg',
-    }
-  )
+      +slide-item({
+        img: './assets/imgs/prod1.jpg',
+        sale: '6%',
+        category: 'Beverage'
+        })
     .swiper-slide
-      +slide-item(
-    {
-      img:'./assets/imgs/prod.jpg',
-    }
-      )
+      +slide-item({
+        img: './assets/imgs/prod2.jpg',
+        sale: '10%',
+        category: 'Nuts & Snacks'
+        })
+    .swiper-slide
+      +slide-item({
+        img: './assets/imgs/prod3.jpg',
+        sale: '6%',
+        category: 'Fresh Vegetables'
+        })
+    .swiper-slide
+      +slide-item({
+        img: './assets/imgs/prod4.jpg',
+        sale: '25%',
+        category: 'Fresh Fruits'
+        })
+    .swiper-slide
+      +slide-item({
+        img: './assets/imgs/prod5.jpg',
+        sale: '15%',
+        category: 'Eggs & Dairy'
+        })
 
+  // If we need navigation buttons
+  .swiper-button-prev
+  .swiper-button-next
+  

@@ -10,34 +10,88 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body> 
-    <header> 
-      <div class="container header__row">
-        <div class="nav" id="nav">
-          <menu><span class="close">X</span><a href="#">home</a><a href="#">home</a><a href="#">home</a></menu>
-          <spam class="close" id="nav-close">X</spam>
-        </div><span class="burger" id="nav-open">=</span>
+    <div class="contacts container"><a href="#"> <img class="contacts__email" src="./assets/imgs/header/email.svg" alt="mail"></a><a class="contacts__email" href="mailto:Hello@colorlib.com">Hello@colorlib.com</a>
+      <p class="contacts__text">Free Shipping for all order of $99</p>
+      <div class="contacts__social"><a class="contacts__social--style" href="#"> <img src="./assets/imgs/header/facebook.svg" alt="facebook"></a><a class="contacts__social--style" href="#"> <img src="./assets/imgs/header/wapp.png" alt="whatsapp"></a><a class="contacts__social--style" href="#"> <img src="./assets/imgs/header/in.svg" alt="in"></a><a class="contacts__social--style" href="#"> <img src="./assets/imgs/header/twitt.svg" alt="twitt"></a></div>
+    </div>
+    <div class="profile container"><a class="profile__logo" href="#"><img src="./assets/imgs/logo.jpg" alt="logo"></a>
+      <div class="profile__place"><img src="./assets/imgs/location.svg" alt="location">
+        <p class="profile__city">Gurugram</p><img src="./assets/imgs/galk.svg" alt="vote">
       </div>
-    </header>
-    <div class="swiper slider">
+      <form class="profile__form profile__form--placeholder">
+        <input type="image" src="./assets/imgs/search.png">
+        <input class="profile__form--placeholder" type="search" placeholder="Search for products...">
+      </form>
+      <div class="profile__name">
+        <div class="profile__phone"><img src="./assets/imgs/phone.svg" alt="phone">
+          <p class="profile__number">1800-000-000</p>
+        </div>
+        <div class="profile__love"><img src="./assets/imgs/love3.svg" alt="love"></div>
+        <div class="profile__person"><img src="./assets/imgs/person.svg" alt="person">
+          <p class="profile__person--name">John Doe</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu container"><a class="menu__select" href="#"> <img class="menu__img" src="./assets/imgs/menu.png" alt="select">
+        <p class="menu__text">Select Categories</p></a>
+      <div class="menu__list"><a href="#">HOME</a><a href="#">PRODUCT</a><a href="#">STORES</a><a href="#">CONTACT</a></div>
+      <div class="menu__btn"><a class="menu__card" href="#"><img class="menu__card--img" src="./assets/imgs/cart.png" alt="">
+          <p class="menu__card--buy">CART 2</p></a></div>
+    </div>
+    <!-- Slider main container-->
+    <div class="swiper slider container">
       <!-- Additional required wrapper-->
       <div class="swiper-wrapper">
         <!-- Slides-->
-        <div class="swiper-slide"> 
-              <div class="slide-item"><img class="imss" src="./assets/imgs/prod.jpg" alt="">
-                <!-- Slider main container-->
+        <div class="swiper-slide">
+              <div class="slide-item"><img src="./assets/imgs/prod1.jpg" alt=""><a class="slide__link" href="#">Shop now</a>
+                <div class="slide__menu">
+                  <p class="slide__sale">6%OFF</p>
+                  <p class="slide__buy">Buy More & Save More</p>
+                  <p class="slide__category">Beverage</p>
+                </div>
               </div>
         </div>
         <div class="swiper-slide">
-              <div class="slide-item"><img class="imss" src="./assets/imgs/prod.jpg" alt="">
-                <!-- Slider main container-->
+              <div class="slide-item"><img src="./assets/imgs/prod2.jpg" alt=""><a class="slide__link" href="#">Shop now</a>
+                <div class="slide__menu">
+                  <p class="slide__sale">10%OFF</p>
+                  <p class="slide__buy">Buy More & Save More</p>
+                  <p class="slide__category">Nuts &amp; Snacks</p>
+                </div>
               </div>
         </div>
         <div class="swiper-slide">
-              <div class="slide-item"><img class="imss" src="./assets/imgs/prod.jpg" alt="">
-                <!-- Slider main container-->
+              <div class="slide-item"><img src="./assets/imgs/prod3.jpg" alt=""><a class="slide__link" href="#">Shop now</a>
+                <div class="slide__menu">
+                  <p class="slide__sale">6%OFF</p>
+                  <p class="slide__buy">Buy More & Save More</p>
+                  <p class="slide__category">Fresh Vegetables</p>
+                </div>
+              </div>
+        </div>
+        <div class="swiper-slide">
+              <div class="slide-item"><img src="./assets/imgs/prod4.jpg" alt=""><a class="slide__link" href="#">Shop now</a>
+                <div class="slide__menu">
+                  <p class="slide__sale">25%OFF</p>
+                  <p class="slide__buy">Buy More & Save More</p>
+                  <p class="slide__category">Fresh Fruits</p>
+                </div>
+              </div>
+        </div>
+        <div class="swiper-slide">
+              <div class="slide-item"><img src="./assets/imgs/prod5.jpg" alt=""><a class="slide__link" href="#">Shop now</a>
+                <div class="slide__menu">
+                  <p class="slide__sale">15%OFF</p>
+                  <p class="slide__buy">Buy More & Save More</p>
+                  <p class="slide__category">Eggs &amp; Dairy</p>
+                </div>
               </div>
         </div>
       </div>
+      <!-- If we need navigation buttons-->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
     <section class="category title container">
       <h3 class="title__greentext">Shop By</h3>

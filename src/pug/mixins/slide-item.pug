@@ -1,3 +1,8 @@
 mixin slide-item(args={})
   .slide-item
-    img(src=args.img, alt="").imss
+    img(src=args.img, alt="")
+    a.slide__link(href="#") Shop now
+    .slide__menu
+            p.slide__sale=args.sale + "OFF"
+            p.slide__buy Buy More & Save More
+            p.slide__category=args.category

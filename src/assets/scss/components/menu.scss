@@ -1,0 +1,55 @@
+.menu {
+    height: 80px;
+    display: flex;
+    &__select {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        background: #f7f7f7;
+        padding: 18px 0px 19px 20px;
+        color: #2a2a2a;
+    }
+    &__text {
+        background: #f7f7f7;
+        padding: 18px 23px 19px 12px;
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #2a2a2a;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    &__list {
+        display: flex;
+        text-align: center;
+    }
+    &__btn {
+        display: flex;
+        background: #7fad39;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    &__card {
+        display: flex;
+        padding: 13px 37px 13px 14px;
+        align-items: center;
+        text-decoration: none;
+    }
+    &__card--buy {
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+}
